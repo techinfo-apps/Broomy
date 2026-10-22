@@ -14,7 +14,7 @@
 
 **[Broomy 1.0](https://github.com/techinfo-apps/Broomy/releases/latest)**: macOS 14 이상, Apple 실리콘과 Intel 모두 지원합니다. .dmg를 열고 Broomy를 응용 프로그램 폴더로 끌어다 놓으세요.
 
-아직 Apple의 공증을 받지 않아 처음 열 때 macOS가 막습니다. macOS 14: **Broomy를 오른쪽 클릭 → 열기 → 열기**. macOS 15 이상: 한 번 열어 본 뒤 **시스템 설정 → 개인정보 보호 및 보안**에서 아래로 스크롤해 Broomy 옆의 **그래도 열기**를 클릭하세요.
+아직 Apple의 공증을 받지 않아 처음 열 때 macOS가 막습니다. macOS 14: **Broomy를 오른쪽 클릭 → 열기 → 열기**. macOS 15 이상: 한 번 열어 본 뒤 **시스템 설정 → 개인정보 보호 및 보안**에서 아래로 스크롤해 Broomy 옆의 **확인 없이 열기**를 클릭하세요.
 
 Broomy는 이 페이지의 [Releases](https://github.com/techinfo-apps/Broomy/releases)나 공식 사이트 https://techinfo-apps.github.io/ 에서만 내려받으세요. Releases 페이지에 파일마다 SHA-256이 있어서, 내려받은 파일이 바뀌지 않았는지 확인할 수 있습니다.
 
@@ -28,7 +28,7 @@ Broomy는 이 페이지의 [Releases](https://github.com/techinfo-apps/Broomy/re
 
 안전하게 지울 수 있는 것을 찾고, 옮기기 전에 그것이 무엇인지 정확히 보여 줍니다.
 
-- **개발자 도구**: Xcode 빌드 데이터, 캐시, 기기 지원 파일, 아카이브, 시뮬레이터. Gradle과 Homebrew의 다운로드. pip, npm, pnpm, Yarn, Bun, CocoaPods, Swift Package Manager, Go, Cargo의 캐시. 30일 동안 아무도 바꾸지 않은 프로젝트의 빌드 폴더(node_modules, .build, target, dist, Gradle의 build)도 찾습니다. git이 추적하는 것은 건드리지 않습니다.
+- **개발자 도구**: Xcode 빌드 데이터, 캐시, 기기 지원 파일, 아카이브, 시뮬레이터. Gradle과 Homebrew의 다운로드 캐시. pip, npm, pnpm, Yarn, Bun, CocoaPods, Swift Package Manager, Go, Cargo의 캐시. 30일 동안 아무도 바꾸지 않은 프로젝트의 빌드 폴더(node_modules, .build, target, dist, Gradle의 build)도 찾습니다. git이 추적하는 것은 건드리지 않습니다.
 - **앱 캐시와 로그**, 다운로드 폴더나 데스크탑에 남은 설치 파일.
 - **삭제한 앱이 남긴 것**: 앱은 없는데 남아 있는 로그인 항목과 백그라운드 서비스로, macOS가 계속 실행하려고 합니다. 시스템 폴더에 있는 것을 지울 때는 macOS 자체 대화상자에서 암호를 한 번 묻습니다.
 
@@ -40,7 +40,7 @@ Broomy는 이 페이지의 [Releases](https://github.com/techinfo-apps/Broomy/re
 
 ### 제거
 
-앱을 그 앱의 컨테이너, 캐시, 설정, 응용 프로그램 지원 파일, 저장된 윈도우 상태, 웹 데이터, 로그인 항목과 함께 옮기며, 각각의 크기를 보여 줍니다. 앱의 식별자(와 그 안에 있는 도우미의 식별자)로 찾습니다. 이름만 같은 폴더는 보여 주지만 체크하지 않습니다. Apple의 앱은 목록에 없고, 실행 중인 앱은 먼저 종료해야 하며, 다른 앱과 함께 쓰는 파일은 건드리지 않습니다. 앱 자체를 옮길 수 없으면 다른 것도 전혀 건드리지 않습니다.
+앱을 그 앱의 컨테이너, 캐시, 설정, 응용 프로그램 지원 파일, 저장된 윈도우 상태, 웹 데이터, 로그인 항목과 함께 휴지통으로 옮기며, 각각의 크기를 보여 줍니다. 앱의 식별자(와 앱 안에 들어 있는 헬퍼 앱의 식별자)로 찾습니다. 이름만 같은 폴더는 보여 주지만 체크하지 않습니다. Apple의 앱은 목록에 없고, 실행 중인 앱은 먼저 종료해야 하며, 다른 앱과 함께 쓰는 파일은 건드리지 않습니다. 앱 자체를 옮길 수 없으면 다른 것도 전혀 건드리지 않습니다.
 
 <p align="center">
   <img src="screenshots/uninstall-ko.png" width="620" alt="제거: 앱과 그 앱에 속한 모든 것">
@@ -57,7 +57,7 @@ Broomy는 이 페이지의 [Releases](https://github.com/techinfo-apps/Broomy/re
 
 ### 기기
 
-디스플레이의 밝기와 음량을 조절합니다. 외장 모니터도 됩니다(DDC). 조절할 수 없는 모니터는 그렇다는 것과 이유, 해 볼 수 있는 방법을 알려 줍니다. 사운드 출력 음량, 더 편한 마우스 휠(방향 반대로, 부드러운 스크롤), 외장 드라이브와 USB, Thunderbolt 기기도 볼 수 있습니다.
+디스플레이의 밝기와 음량을 조절합니다. 외장 모니터도 됩니다(DDC). 조절할 수 없는 모니터는 조절할 수 없다는 사실과 그 이유, 해 볼 수 있는 방법을 알려 줍니다. 사운드 출력 음량, 더 편한 마우스 휠(방향 반대로, 부드러운 스크롤), 외장 드라이브와 USB, Thunderbolt 기기도 볼 수 있습니다.
 
 <p align="center">
   <img src="screenshots/devices-ko.png" width="620" alt="기기: 디스플레이별 밝기와 음량, 조절할 수 없는 이유">
@@ -65,7 +65,7 @@ Broomy는 이 페이지의 [Releases](https://github.com/techinfo-apps/Broomy/re
 
 ### 메뉴 막대
 
-원하면 Broomy를 메뉴 막대에 둘 수 있습니다. 작은 빗자루 옆에 불필요한 파일 크기나 CPU 온도를 보여 주고, 해 아이콘을 한 번 클릭하면 밝기와 음량을 바로 조절할 수 있습니다.
+원하면 Broomy를 메뉴 막대에 둘 수 있습니다. 작은 빗자루 옆에 불필요한 파일 크기나 CPU 온도를 보여 주고, 태양 아이콘을 한 번 클릭하면 밝기와 음량을 바로 조절할 수 있습니다.
 
 ## 개인정보
 

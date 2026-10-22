@@ -28,9 +28,9 @@ Balayez à deux doigts vers la gauche ou la droite, cliquez sur la barre en haut
 
 Trouve les fichiers inutiles que l’on peut supprimer sans risque et montre exactement ce que c’est avant de déplacer quoi que ce soit.
 
-- **Outils de développement** : données de compilation Xcode, caches, fichiers de prise en charge des appareils, archives et simulateurs ; téléchargements de Gradle et Homebrew ; caches de pip, npm, pnpm, Yarn, Bun, CocoaPods, Swift Package Manager, Go et Cargo ; et les dossiers de compilation (node_modules, .build, target, dist, build de Gradle) des projets que personne n’a modifiés depuis 30 jours, jamais rien de ce que suit git.
+- **Outils de développement** : données de compilation Xcode, caches, fichiers de prise en charge des appareils, archives et simulateurs ; téléchargements de Gradle et Homebrew ; caches de pip, npm, pnpm, Yarn, Bun, CocoaPods, Swift Package Manager, Go et Cargo ; et les dossiers de compilation (node_modules, .build, target, dist, build de Gradle) des projets que personne n’a modifiés depuis 30 jours, jamais rien de ce qui est suivi par git.
 - **Caches et journaux des apps**, et programmes d’installation oubliés dans Téléchargements ou sur le Bureau.
-- **Laissé par des apps supprimées** : éléments d’ouverture et services d’arrière-plan dont l’app n’existe plus, que macOS essaie de lancer encore et encore. Supprimer ceux des dossiers système demande votre mot de passe, une seule fois, dans la fenêtre de macOS.
+- **Laissé par des apps supprimées** : éléments d’ouverture et services d’arrière-plan dont l’app n’existe plus, que macOS essaie de lancer encore et encore. Supprimer ceux des dossiers système demande votre mot de passe, une seule fois, dans la boîte de dialogue de macOS.
 
 Ce qui mérite un second regard (fichiers de prise en charge des appareils, archives, simulateurs, programmes d’installation, anciens dossiers de compilation) n’est pas coché au départ.
 
@@ -40,7 +40,7 @@ Ce qui mérite un second regard (fichiers de prise en charge des appareils, arch
 
 ### Désinstaller
 
-Supprime une app avec son conteneur, ses caches, ses réglages, ses fichiers de support, l’état de ses fenêtres, ses données web et ses éléments d’ouverture, chacun avec sa taille. Les fichiers sont reconnus par l’identifiant de l’app (et ceux des assistants qu’elle contient) ; les dossiers qui portent seulement son nom sont affichés, mais pas cochés. Les apps d’Apple ne sont pas listées, une app ouverte doit d’abord être quittée, les fichiers partagés avec une autre app ne sont pas touchés et, si l’app elle-même ne peut pas être déplacée, rien d’autre ne l’est.
+Supprime une app avec son conteneur, ses caches, ses réglages, ses fichiers de support, l’état de ses fenêtres, ses données web et ses éléments d’ouverture, chacun avec sa taille. Les fichiers sont reconnus par l’identifiant de l’app (et ceux des apps auxiliaires qu’elle contient) ; les dossiers qui portent seulement son nom sont affichés, mais pas cochés. Les apps d’Apple ne sont pas listées, une app ouverte doit d’abord être quittée, les fichiers partagés avec une autre app ne sont pas touchés et, si l’app elle-même ne peut pas être déplacée, rien d’autre ne l’est.
 
 <p align="center">
   <img src="screenshots/uninstall-fr.png" width="620" alt="Désinstaller : une app et tout ce qui lui appartient">
@@ -57,7 +57,7 @@ Utilisation du CPU par cœur, mémoire et pression mémoire, espace du disque de
 
 ### Appareils
 
-Luminosité et volume de vos écrans, moniteurs externes compris (par DDC). Quand un moniteur ne peut pas être réglé, Broomy le dit, explique pourquoi et quoi essayer. Aussi : le volume de la sortie audio, une molette de souris plus agréable (inversée, défilement fluide), vos disques externes et vos appareils USB et Thunderbolt.
+Luminosité et volume de vos écrans, moniteurs externes compris (par DDC). Quand un moniteur ne peut pas être réglé, Broomy vous le signale, explique pourquoi et indique ce que vous pouvez essayer. Aussi : le volume de la sortie audio, une molette de souris plus agréable (inversée, défilement fluide), vos disques externes et vos appareils USB et Thunderbolt.
 
 <p align="center">
   <img src="screenshots/devices-fr.png" width="620" alt="Appareils : luminosité et volume de chaque écran, et ce qui ne peut pas être réglé">

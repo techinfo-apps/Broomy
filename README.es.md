@@ -28,9 +28,9 @@ Desliza dos dedos a la izquierda o a la derecha, haz clic en la barra de arriba 
 
 Encuentra la basura que se puede borrar sin riesgo y te muestra exactamente qué es antes de mover nada.
 
-- **Herramientas de desarrollo**: datos de compilación de Xcode, cachés, archivos de soporte de dispositivos, archivos y simuladores; descargas de Gradle y Homebrew; las cachés de pip, npm, pnpm, Yarn, Bun, CocoaPods, Swift Package Manager, Go y Cargo; y las carpetas de compilación (node_modules, .build, target, dist, build de Gradle) de proyectos que nadie ha cambiado en 30 días, nunca nada de lo que sigue git.
+- **Herramientas de desarrollo**: datos de compilación de Xcode, cachés, archivos de soporte de dispositivos, archivos y simuladores; descargas de Gradle y Homebrew; las cachés de pip, npm, pnpm, Yarn, Bun, CocoaPods, Swift Package Manager, Go y Cargo; y las carpetas de compilación (node_modules, .build, target, dist, build de Gradle) de proyectos que nadie ha cambiado en 30 días, nunca nada que esté controlado por git.
 - **Cachés y registros de apps**, e instaladores olvidados en Descargas o en el Escritorio.
-- **Restos de apps eliminadas**: ítems de inicio y servicios en segundo plano cuya app ya no está, que macOS intenta arrancar una y otra vez. Quitar los que están en carpetas del sistema pide tu contraseña una sola vez, en el propio diálogo de macOS.
+- **Restos de apps eliminadas**: ítems de inicio y servicios en segundo plano cuya app ya no está, que macOS intenta arrancar una y otra vez. Para quitar los que están en carpetas del sistema, se te pedirá la contraseña una sola vez, en el propio diálogo de macOS.
 
 Lo que merece una segunda mirada (archivos de soporte de dispositivos, archivos, simuladores, instaladores, carpetas de compilación antiguas) empieza sin marcar.
 
@@ -40,7 +40,7 @@ Lo que merece una segunda mirada (archivos de soporte de dispositivos, archivos,
 
 ### Desinstalar
 
-Quita una app junto con su contenedor, cachés, ajustes, archivos de soporte, estado de ventanas guardado, datos web e ítems de inicio, cada uno con su tamaño. Los archivos se reconocen por el identificador de la app (y por los de los ayudantes que lleva dentro); las carpetas que solo comparten su nombre se muestran, pero sin marcar. Las apps de Apple no aparecen, una app abierta hay que cerrarla antes, los archivos que comparte otra app no se tocan y, si la app en sí no se puede mover, no se toca nada más.
+Quita una app junto con su contenedor, cachés, ajustes, archivos de soporte, estado de ventanas guardado, datos web e ítems de inicio, cada uno con su tamaño. Los archivos se reconocen por el identificador de la app (y por los de las apps auxiliares que contiene); las carpetas que solo comparten su nombre se muestran, pero sin marcar. Las apps de Apple no aparecen, una app abierta hay que cerrarla antes, los archivos que comparte otra app no se tocan y, si la app en sí no se puede mover, no se toca nada más.
 
 <p align="center">
   <img src="screenshots/uninstall-es.png" width="620" alt="Desinstalar: una app y todo lo que le pertenece">
@@ -57,7 +57,7 @@ Uso de la CPU por núcleo, memoria y presión de memoria, espacio del disco de a
 
 ### Dispositivos
 
-Brillo y volumen de tus pantallas, también de monitores externos (por DDC). Cuando un monitor no se puede ajustar, Broomy lo dice, explica por qué y qué probar. Además, el volumen de la salida de sonido, una rueda del ratón más cómoda (invertirla, desplazamiento suave) y tus discos externos y dispositivos USB y Thunderbolt.
+Brillo y volumen de tus pantallas, también de monitores externos (por DDC). Cuando un monitor no se puede ajustar, Broomy te lo dice, te explica por qué y qué puedes probar. Además, el volumen de la salida de sonido, una rueda del ratón más cómoda (invertirla, desplazamiento suave) y tus discos externos y dispositivos USB y Thunderbolt.
 
 <p align="center">
   <img src="screenshots/devices-es.png" width="620" alt="Dispositivos: brillo y volumen de cada pantalla, y lo que no se puede ajustar">

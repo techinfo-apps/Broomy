@@ -12,11 +12,11 @@
 
 ## 下载
 
-**[Broomy 1.0](https://github.com/techinfo-apps/Broomy/releases/latest)**：需要 macOS 14 及以上，Apple 芯片和 Intel 都行。打开 .dmg，把 小扫帚拖进“应用程序”。
+**[Broomy 1.0](https://github.com/techinfo-apps/Broomy/releases/latest)**：需要 macOS 14 及以上，Apple 芯片和 Intel 都行。打开 .dmg，把小扫帚拖进“应用程序”。
 
-这个 App 还没经过苹果公证，第一次打开时 macOS 会拦一下。macOS 14：**右键点小扫帚 → 打开 → 打开**。macOS 15 及以后：先打开一次，再到**系统设置 → 隐私与安全性**，往下翻，点 小扫帚旁边的**仍要打开**。
+这个 App 还没经过苹果公证，第一次打开时 macOS 会拦一下。macOS 14：**右键点小扫帚 → 打开 → 打开**。macOS 15 及以后：先打开一次，再到**系统设置 → 隐私与安全性**，往下翻，点小扫帚旁边的**仍要打开**。
 
-只从这里的 [Releases](https://github.com/techinfo-apps/Broomy/releases) 或官网 https://techinfo-apps.github.io/ 下载 小扫帚。Releases 页面上每个文件都标着 SHA-256，可以核对下载的文件没被改过。
+只从这里的 [Releases](https://github.com/techinfo-apps/Broomy/releases) 或官网 https://techinfo-apps.github.io/ 下载小扫帚。Releases 页面上每个文件都标着 SHA-256，可以核对下载的文件没被改过。
 
 每个版本加了什么：[版本记录](CHANGELOG.zh-CN.md)。
 
@@ -65,7 +65,7 @@
 
 ### 菜单栏
 
-愿意的话，小扫帚可以常驻菜单栏：小扫把旁边显示垃圾大小或 CPU 温度，再加一个小太阳，点一下就能调亮度和音量。
+愿意的话，小扫帚可以常驻菜单栏：扫把图标旁边显示垃圾大小或 CPU 温度，再加一个小太阳，点一下就能调亮度和音量。
 
 ## 隐私
 
