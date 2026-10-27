@@ -2,6 +2,16 @@
 
 **English** · [简体中文](CHANGELOG.zh-CN.md) · [繁體中文](CHANGELOG.zh-TW.md) · [日本語](CHANGELOG.ja.md) · [한국어](CHANGELOG.ko.md) · [Español](CHANGELOG.es.md) · [Français](CHANGELOG.fr.md)
 
+## 1.1 — 2026-10-27
+
+- **More to clean up**: Xcode previews; the caches that apps built on web technology (such as VS Code, Slack and Discord) keep in their own folders, skipped while the app is open; Android emulator snapshots; command-line tool caches; data folders of apps that are no longer installed; disk images (.iso, .img) along with installers. The last four start unticked.
+- **Empty the Trash** from Clean Up, the Overview or the menu bar. The Finder empties it, only when you click and confirm; nothing else in Broomy deletes anything for good.
+- **Calmer pages**: secondary buttons are icons (their names show when you point at them), and each category's description sits behind an ⓘ.
+- **Uninstall** can sort apps by how rarely you open them.
+- **Photos syncing…** on the Overview shows how to pause iCloud Photos or turn it off on this Mac. Broomy only opens Photos; it never changes the setting itself.
+- The menu bar panel's power button closes Broomy's windows and keeps it in the menu bar; right-click the menu bar icon to quit.
+- Mail written from About starts its subject with [Broomy].
+
 ## 1.0 — 2026-10-21
 
 First release.

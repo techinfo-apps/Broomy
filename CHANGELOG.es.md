@@ -2,6 +2,16 @@
 
 [English](CHANGELOG.md) · [简体中文](CHANGELOG.zh-CN.md) · [繁體中文](CHANGELOG.zh-TW.md) · [日本語](CHANGELOG.ja.md) · [한국어](CHANGELOG.ko.md) · **Español** · [Français](CHANGELOG.fr.md)
 
+## 1.1 — 2026-10-27
+
+- **Más cosas que limpiar**: previsualizaciones de Xcode; las cachés que las apps hechas con tecnología web (como VS Code, Slack y Discord) guardan en sus propias carpetas, que se omiten mientras la app está abierta; instantáneas del emulador de Android; cachés de herramientas de línea de comandos; carpetas de datos de apps que ya no están instaladas; imágenes de disco (.iso, .img) junto a los instaladores. Las cuatro últimas empiezan sin marcar.
+- **Vaciar la papelera** desde Limpieza, el Resumen o la barra de menús. La vacía el Finder, y solo cuando haces clic y confirmas; nada más en Broomy elimina nada para siempre.
+- **Páginas más tranquilas**: los botones secundarios son iconos (su nombre aparece al apuntarlos) y la descripción de cada categoría está tras una ⓘ.
+- **Desinstalar** puede ordenar las apps según lo poco que las abres.
+- **Sincronización de fotos…** en el Resumen explica cómo pausar Fotos en iCloud o desactivarla en este Mac. Broomy solo abre Fotos; nunca cambia el ajuste por sí mismo.
+- El botón de encendido del panel de la barra de menús cierra las ventanas de Broomy y lo deja en la barra de menús; para salir, haz clic derecho en su icono.
+- El correo escrito desde Acerca de Broomy empieza su asunto con [Broomy].
+
 ## 1.0 — 2026-10-21
 
 Primera versión.

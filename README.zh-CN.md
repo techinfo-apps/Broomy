@@ -12,7 +12,7 @@
 
 ## 下载
 
-**[Broomy 1.0](https://github.com/techinfo-apps/Broomy/releases/latest)**：需要 macOS 14 及以上，Apple 芯片和 Intel 都行。打开 .dmg，把小扫帚拖进“应用程序”。
+**[Broomy 1.1](https://github.com/techinfo-apps/Broomy/releases/latest)**：需要 macOS 14 及以上，Apple 芯片和 Intel 都行。打开 .dmg，把小扫帚拖进“应用程序”。
 
 这个 App 还没经过苹果公证，第一次打开时 macOS 会拦一下。macOS 14：**右键点小扫帚 → 打开 → 打开**。macOS 15 及以后：先打开一次，再到**系统设置 → 隐私与安全性**，往下翻，点小扫帚旁边的**仍要打开**。
 

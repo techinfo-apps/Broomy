@@ -12,7 +12,7 @@ A small, honest cleaner for your Mac. Broomy finds what's safe to remove, uninst
 
 ## Download
 
-**[Broomy 1.0](https://github.com/techinfo-apps/Broomy/releases/latest)**: macOS 14 or later, Apple silicon or Intel. Open the .dmg and drag Broomy to Applications.
+**[Broomy 1.1](https://github.com/techinfo-apps/Broomy/releases/latest)**: macOS 14 or later, Apple silicon or Intel. Open the .dmg and drag Broomy to Applications.
 
 Broomy isn't notarized by Apple yet, so macOS stops it the first time. On macOS 14: **right-click Broomy → Open → Open**. On macOS 15 and later: open it once, then go to **System Settings → Privacy & Security**, scroll down and click **Open Anyway** next to Broomy.
 

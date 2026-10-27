@@ -12,7 +12,7 @@
 
 ## 다운로드
 
-**[Broomy 1.0](https://github.com/techinfo-apps/Broomy/releases/latest)**: macOS 14 이상, Apple 실리콘과 Intel 모두 지원합니다. .dmg를 열고 Broomy를 응용 프로그램 폴더로 끌어다 놓으세요.
+**[Broomy 1.1](https://github.com/techinfo-apps/Broomy/releases/latest)**: macOS 14 이상, Apple 실리콘과 Intel 모두 지원합니다. .dmg를 열고 Broomy를 응용 프로그램 폴더로 끌어다 놓으세요.
 
 아직 Apple의 공증을 받지 않아 처음 열 때 macOS가 막습니다. macOS 14: **Broomy를 오른쪽 클릭 → 열기 → 열기**. macOS 15 이상: 한 번 열어 본 뒤 **시스템 설정 → 개인정보 보호 및 보안**에서 아래로 스크롤해 Broomy 옆의 **확인 없이 열기**를 클릭하세요.
 

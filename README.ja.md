@@ -12,7 +12,7 @@
 
 ## ダウンロード
 
-**[Broomy 1.0](https://github.com/techinfo-apps/Broomy/releases/latest)**：macOS 14 以降、Apple シリコンと Intel の両方に対応。.dmg を開いて、Broomy を「アプリケーション」にドラッグしてください。
+**[Broomy 1.1](https://github.com/techinfo-apps/Broomy/releases/latest)**：macOS 14 以降、Apple シリコンと Intel の両方に対応。.dmg を開いて、Broomy を「アプリケーション」にドラッグしてください。
 
 このアプリはまだ Apple の公証を受けていないため、初回は macOS に止められます。macOS 14：**Broomy を右クリック → 開く → 開く**。macOS 15 以降：一度開いてから **システム設定 → プライバシーとセキュリティ** を下にスクロールし、Broomy の横の **このまま開く** をクリックしてください。
 

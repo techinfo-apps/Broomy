@@ -12,7 +12,7 @@ Un limpiador pequeño y honesto para tu Mac. Broomy encuentra lo que se puede bo
 
 ## Descarga
 
-**[Broomy 1.0](https://github.com/techinfo-apps/Broomy/releases/latest)**: macOS 14 o posterior, Apple silicon o Intel. Abre el .dmg y arrastra Broomy a Aplicaciones.
+**[Broomy 1.1](https://github.com/techinfo-apps/Broomy/releases/latest)**: macOS 14 o posterior, Apple silicon o Intel. Abre el .dmg y arrastra Broomy a Aplicaciones.
 
 Broomy todavía no está notarizado por Apple, así que macOS lo detiene la primera vez. En macOS 14: **clic secundario en Broomy → Abrir → Abrir**. En macOS 15 y posteriores: ábrelo una vez y luego ve a **Ajustes del Sistema → Privacidad y seguridad**, desplázate hacia abajo y haz clic en **Abrir igualmente** junto a Broomy.
 
