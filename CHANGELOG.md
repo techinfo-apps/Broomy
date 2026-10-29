@@ -2,6 +2,14 @@
 
 **English** · [简体中文](CHANGELOG.zh-CN.md) · [繁體中文](CHANGELOG.zh-TW.md) · [日本語](CHANGELOG.ja.md) · [한국어](CHANGELOG.ko.md) · [Español](CHANGELOG.es.md) · [Français](CHANGELOG.fr.md)
 
+## 1.2 — 2026-10-28
+
+- **Move**, a new page: apps you rarely use and big files you haven't opened in a month go to a “Moved by Broomy” folder on an external drive, only after you tick them and confirm. Each one is copied and checked against the original before the original goes to the Trash; an app leaves a link in its old place. If any step fails, nothing is moved. **Move back** brings them home the same way.
+- Apps go only to solid-state drives, and when a drive doesn't say whether it's solid-state or a hard disk, you choose. Apps from the App Store or an installer, and apps that run things in the background, stay where they are, with the reason shown.
+- An app moved to a drive that isn't attached still counts as installed, so its data is never offered as left behind.
+- **Uninstall** sorts by how many days you used each app in the last 90.
+- **Note which days you open each app** (Settings, off by default): kept on this Mac for a year, and you can clear it.
+
 ## 1.1 — 2026-10-27
 
 - **More to clean up**: Xcode previews; the caches that apps built on web technology (such as VS Code, Slack and Discord) keep in their own folders, skipped while the app is open; Android emulator snapshots; command-line tool caches; data folders of apps that are no longer installed; disk images (.iso, .img) along with installers. The last four start unticked.

@@ -12,7 +12,7 @@ Un limpiador pequeño y honesto para tu Mac. Broomy encuentra lo que se puede bo
 
 ## Descarga
 
-**[Broomy 1.1](https://github.com/techinfo-apps/Broomy/releases/latest)**: macOS 14 o posterior, Apple silicon o Intel. Abre el .dmg y arrastra Broomy a Aplicaciones.
+**[Broomy 1.2](https://github.com/techinfo-apps/Broomy/releases/latest)**: macOS 14 o posterior, Apple silicon o Intel. Abre el .dmg y arrastra Broomy a Aplicaciones.
 
 Broomy todavía no está notarizado por Apple, así que macOS lo detiene la primera vez. En macOS 14: **clic secundario en Broomy → Abrir → Abrir**. En macOS 15 y posteriores: ábrelo una vez y luego ve a **Ajustes del Sistema → Privacidad y seguridad**, desplázate hacia abajo y haz clic en **Abrir igualmente** junto a Broomy.
 
@@ -22,7 +22,7 @@ Novedades de cada versión: [historial de versiones](CHANGELOG.es.md).
 
 ## Una página por función
 
-Desliza dos dedos a la izquierda o a la derecha, haz clic en la barra de arriba o pulsa ⌘1…⌘6.
+Desliza dos dedos a la izquierda o a la derecha, haz clic en la barra de arriba o pulsa ⌘1…⌘7.
 
 ### Limpieza
 
@@ -44,6 +44,18 @@ Quita una app junto con su contenedor, cachés, ajustes, archivos de soporte, es
 
 <p align="center">
   <img src="screenshots/uninstall-es.png" width="620" alt="Desinstalar: una app y todo lo que le pertenece">
+</p>
+
+### Mover a un disco externo
+
+Las apps que casi no usas y los archivos grandes que no abres desde hace un mes pueden vivir en un disco externo y volver cuando quieras. Broomy muestra las apps de 100 MB o más, con los días que has usado cada una en los últimos 90, y los archivos de 500 MB o más de Descargas, Escritorio, Documentos y Películas que llevan 30 días sin abrirse ni modificarse. No se mueve nada hasta que lo marcas y confirmas la lista.
+
+Cada elemento se copia a una carpeta «Moved by Broomy» del disco y se comprueba con el original (archivos, tamaños y contenido, y también la firma en el caso de las apps). Solo entonces el original va a la papelera; una app deja un enlace en su sitio, así que se abre como antes (si estaba en el Dock, vuelve a arrastrarla allí). Si algún paso falla, la copia se elimina y el original se queda donde estaba. **Devolver** hace lo mismo en sentido contrario.
+
+Las apps solo van a discos de estado sólido: desde un disco duro se abrirían despacio, así que los discos duros solo reciben archivos. Cuando un disco no indica de qué tipo es, eliges tú. El disco tiene que estar formateado como APFS o Mac OS Extended. Las apps de la App Store o de un instalador, las que se ejecutan en segundo plano y las que están abiertas se quedan donde están, cada una con su motivo. La primera vez que muevas una app, macOS puede pedirte que permitas Broomy en Gestión de apps, dentro de Ajustes del Sistema. Los discos externos normalmente no están en tu copia de Time Machine, y el espacio se libera cuando vacías la papelera.
+
+<p align="center">
+  <img src="screenshots/move-es.png" width="620" alt="Mover: apps que casi no usas, archivos grandes que no abres desde hace un mes y el disco al que pueden ir">
 </p>
 
 ### Sistema y salud del disco
@@ -70,8 +82,8 @@ Si quieres, Broomy se queda en la barra de menús: el tamaño de la basura o la 
 ## Privacidad
 
 - **Nunca se conecta a internet.** Broomy no tiene código de red; los únicos enlaces (esta página, la dirección de correo) se abren en tu navegador o en tu app de correo cuando haces clic.
-- No recoge ni envía nada a ningún sitio. Su historial (escrituras por día, espacio usado) se queda en este Mac.
-- Nunca lee lo que hay en los discos externos y nunca muestra números de serie.
+- No recoge ni envía nada a ningún sitio. Su historial (escrituras por día, espacio usado) se queda en este Mac, y también el registro de qué apps abres cada día, que está desactivado salvo que lo actives en Ajustes.
+- En un disco externo solo trabaja en su propia carpeta «Moved by Broomy», y solo después de que confirmes qué se mueve. Nunca muestra números de serie.
 - Todo lo que quita va a la papelera, así que puedes recuperarlo hasta que la vacíes.
 
 ## Idiomas

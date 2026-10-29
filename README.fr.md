@@ -12,7 +12,7 @@ Un petit nettoyeur honnête pour votre Mac. Broomy trouve ce que l’on peut sup
 
 ## Téléchargement
 
-**[Broomy 1.1](https://github.com/techinfo-apps/Broomy/releases/latest)** : macOS 14 ou ultérieur, Apple silicon ou Intel. Ouvrez le .dmg et glissez Broomy dans Applications.
+**[Broomy 1.2](https://github.com/techinfo-apps/Broomy/releases/latest)** : macOS 14 ou ultérieur, Apple silicon ou Intel. Ouvrez le .dmg et glissez Broomy dans Applications.
 
 Broomy n’est pas encore notarié par Apple, donc macOS l’arrête la première fois. Sur macOS 14 : **clic droit sur Broomy → Ouvrir → Ouvrir**. Sur macOS 15 et ultérieur : ouvrez-le une fois, puis allez dans **Réglages Système → Confidentialité et sécurité**, faites défiler vers le bas et cliquez sur **Ouvrir quand même** à côté de Broomy.
 
@@ -22,7 +22,7 @@ Les nouveautés de chaque version : [historique des versions](CHANGELOG.fr.md).
 
 ## Une page par fonction
 
-Balayez à deux doigts vers la gauche ou la droite, cliquez sur la barre en haut, ou appuyez sur ⌘1…⌘6.
+Balayez à deux doigts vers la gauche ou la droite, cliquez sur la barre en haut, ou appuyez sur ⌘1…⌘7.
 
 ### Nettoyage
 
@@ -44,6 +44,18 @@ Supprime une app avec son conteneur, ses caches, ses réglages, ses fichiers de 
 
 <p align="center">
   <img src="screenshots/uninstall-fr.png" width="620" alt="Désinstaller : une app et tout ce qui lui appartient">
+</p>
+
+### Déplacer vers un disque externe
+
+Les apps que vous utilisez peu et les gros fichiers que vous n’avez pas ouverts depuis un mois peuvent vivre sur un disque externe et revenir quand vous voulez. Broomy liste les apps de 100 Mo ou plus, avec le nombre de jours où vous avez utilisé chacune sur les 90 derniers, ainsi que les fichiers de 500 Mo ou plus dans Téléchargements, Bureau, Documents et Films qui n’ont été ni ouverts ni modifiés depuis 30 jours. Rien ne bouge avant que vous ayez coché et confirmé la liste.
+
+Chaque élément est copié dans un dossier « Moved by Broomy » du disque, puis comparé à l’original (fichiers, tailles et contenu, et la signature pour une app). Ce n’est qu’ensuite que l’original va dans la corbeille ; une app laisse un lien à son ancienne place et s’ouvre donc comme avant (faites-la glisser de nouveau dans le Dock si elle y était). Si une étape échoue, la copie est supprimée et l’original reste où il était. **Remettre** fait la même chose dans l’autre sens.
+
+Les apps ne vont que sur des disques SSD : depuis un disque dur, elles s’ouvriraient lentement, donc les disques durs ne reçoivent que des fichiers. Quand un disque n’indique pas de quel type il est, c’est vous qui choisissez. Le disque doit être formaté en APFS ou en Mac OS étendu. Les apps de l’App Store ou d’un programme d’installation, celles qui tournent en arrière-plan et celles qui sont ouvertes restent où elles sont, chacune avec sa raison. La première fois que vous déplacez une app, macOS peut vous demander d’autoriser Broomy dans Gestion des apps, dans Réglages Système. Les disques externes ne sont en général pas dans votre sauvegarde Time Machine, et l’espace n’est libéré qu’une fois la corbeille vidée.
+
+<p align="center">
+  <img src="screenshots/move-fr.png" width="620" alt="Déplacer : apps que vous utilisez peu, gros fichiers non ouverts depuis un mois, et le disque où ils peuvent aller">
 </p>
 
 ### Système et santé du disque
@@ -70,8 +82,8 @@ Si vous le souhaitez, Broomy reste dans la barre des menus : la taille des fich
 ## Confidentialité
 
 - **Jamais connecté à internet.** Broomy n’a aucun code réseau ; les seuls liens (cette page, l’adresse e-mail) s’ouvrent dans votre navigateur ou votre app de messagerie quand vous cliquez dessus.
-- Rien n’est collecté ni envoyé nulle part. Son historique (écritures par jour, espace utilisé) reste sur ce Mac.
-- Il ne lit jamais le contenu des disques externes et n’affiche jamais de numéro de série.
+- Rien n’est collecté ni envoyé nulle part. Son historique (écritures par jour, espace utilisé) reste sur ce Mac, tout comme le relevé des apps que vous ouvrez chaque jour, désactivé tant que vous ne l’activez pas dans les Réglages.
+- Sur un disque externe, il ne travaille que dans son propre dossier « Moved by Broomy », et seulement après que vous avez confirmé ce qui est déplacé. Il n’affiche jamais de numéro de série.
 - Tout ce qu’il supprime va dans la corbeille : vous pouvez le remettre en place tant qu’elle n’est pas vidée.
 
 ## Langues

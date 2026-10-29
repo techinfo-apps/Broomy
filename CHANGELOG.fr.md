@@ -2,6 +2,14 @@
 
 [English](CHANGELOG.md) · [简体中文](CHANGELOG.zh-CN.md) · [繁體中文](CHANGELOG.zh-TW.md) · [日本語](CHANGELOG.ja.md) · [한국어](CHANGELOG.ko.md) · [Español](CHANGELOG.es.md) · **Français**
 
+## 1.2 — 2026-10-28
+
+- **Déplacer**, une nouvelle page : les apps que vous utilisez peu et les gros fichiers non ouverts depuis un mois vont dans un dossier « Moved by Broomy » sur un disque externe, seulement après que vous les avez cochés et que vous avez confirmé. Chacun est copié et comparé à l’original avant que l’original aille dans la corbeille ; une app laisse un lien à son ancienne place. Si une étape échoue, rien n’est déplacé. **Remettre** les ramène de la même façon.
+- Les apps ne vont que sur des disques SSD, et quand un disque n’indique pas s’il est SSD ou disque dur, c’est vous qui choisissez. Les apps de l’App Store ou d’un programme d’installation, et celles qui tournent en arrière-plan, restent où elles sont, avec la raison affichée.
+- Une app déplacée sur un disque qui n’est pas branché compte toujours comme installée : ses données ne sont donc jamais proposées comme restes d’une app supprimée.
+- **Désinstaller** trie selon le nombre de jours où vous avez utilisé chaque app sur les 90 derniers.
+- **Noter les jours où vous ouvrez chaque app** (Réglages, désactivé par défaut) : conservé sur ce Mac pendant un an, et vous pouvez l’effacer.
+
 ## 1.1 — 2026-10-27
 
 - **Plus de choses à nettoyer** : aperçus Xcode ; les caches que les apps faites avec des technologies web (comme VS Code, Slack et Discord) gardent dans leurs propres dossiers, ignorés tant que l’app est ouverte ; instantanés de l’émulateur Android ; caches des outils en ligne de commande ; dossiers de données d’apps qui ne sont plus installées ; images disque (.iso, .img) avec les fichiers d’installation. Les quatre derniers sont décochés au départ.
