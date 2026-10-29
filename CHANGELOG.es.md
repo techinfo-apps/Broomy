@@ -2,7 +2,7 @@
 
 [English](CHANGELOG.md) · [简体中文](CHANGELOG.zh-CN.md) · [繁體中文](CHANGELOG.zh-TW.md) · [日本語](CHANGELOG.ja.md) · [한국어](CHANGELOG.ko.md) · **Español** · [Français](CHANGELOG.fr.md)
 
-## 1.2 — 2026-10-28
+## 1.2 — 2026-10-29
 
 - **Mover**, una página nueva: las apps que casi no usas y los archivos grandes que no abres desde hace un mes pasan a una carpeta «Moved by Broomy» de un disco externo, solo después de que los marques y confirmes. Cada uno se copia y se comprueba con el original antes de que el original vaya a la papelera; una app deja un enlace en su sitio. Si algún paso falla, no se mueve nada. **Devolver** los trae de vuelta del mismo modo.
 - Las apps solo van a discos de estado sólido, y cuando un disco no indica si es de estado sólido o un disco duro, eliges tú. Las apps de la App Store o de un instalador, y las que se ejecutan en segundo plano, se quedan donde están, con el motivo a la vista.

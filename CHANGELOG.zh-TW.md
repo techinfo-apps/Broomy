@@ -2,7 +2,7 @@
 
 [English](CHANGELOG.md) · [简体中文](CHANGELOG.zh-CN.md) · **繁體中文** · [日本語](CHANGELOG.ja.md) · [한국어](CHANGELOG.ko.md) · [Español](CHANGELOG.es.md) · [Français](CHANGELOG.fr.md)
 
-## 1.2 — 2026-10-28
+## 1.2 — 2026-10-29
 
 - **搬移**（新的一頁）：很少用的 App、一個月沒打開的大檔案，你勾選並確認以後，搬到外接硬碟上的「Moved by Broomy」檔案夾。每一樣都先拷貝過去、跟原件比對，對上了原件才進垃圾桶；App 在原位置留一個連結。任何一步不對，什麼都不搬。**搬回**用同樣的辦法搬回來。
 - App 只放固態硬碟；硬碟說不出是固態還是傳統硬碟時，由你來選。App Store 裝的、用安裝程式裝的、會在背景執行的 App 留在原處，並寫明原因。

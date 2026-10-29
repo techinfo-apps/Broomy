@@ -2,7 +2,7 @@
 
 [English](CHANGELOG.md) · **简体中文** · [繁體中文](CHANGELOG.zh-TW.md) · [日本語](CHANGELOG.ja.md) · [한국어](CHANGELOG.ko.md) · [Español](CHANGELOG.es.md) · [Français](CHANGELOG.fr.md)
 
-## 1.2 — 2026-10-28
+## 1.2 — 2026-10-29
 
 - **迁移**（新的一页）：很少用的 App、一个月没打开的大文件，你勾选并确认以后，挪到外接硬盘上的“Moved by Broomy”文件夹。每一样都先拷过去、跟原件比对，对上了原件才进废纸篓；App 在原位置留一个链接。任何一步不对，什么都不挪。**迁回**用同样的办法搬回来。
 - App 只放固态硬盘；系统说不出硬盘是固态还是机械时，由你来选。App Store 装的、安装器装的、会在后台运行的 App 留在原处，并写明原因。

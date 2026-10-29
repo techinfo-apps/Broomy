@@ -2,7 +2,7 @@
 
 **English** · [简体中文](CHANGELOG.zh-CN.md) · [繁體中文](CHANGELOG.zh-TW.md) · [日本語](CHANGELOG.ja.md) · [한국어](CHANGELOG.ko.md) · [Español](CHANGELOG.es.md) · [Français](CHANGELOG.fr.md)
 
-## 1.2 — 2026-10-28
+## 1.2 — 2026-10-29
 
 - **Move**, a new page: apps you rarely use and big files you haven't opened in a month go to a “Moved by Broomy” folder on an external drive, only after you tick them and confirm. Each one is copied and checked against the original before the original goes to the Trash; an app leaves a link in its old place. If any step fails, nothing is moved. **Move back** brings them home the same way.
 - Apps go only to solid-state drives, and when a drive doesn't say whether it's solid-state or a hard disk, you choose. Apps from the App Store or an installer, and apps that run things in the background, stay where they are, with the reason shown.
