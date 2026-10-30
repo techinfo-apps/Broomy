@@ -20,6 +20,22 @@ Download Broomy only from this page's [Releases](https://github.com/techinfo-app
 
 What's new in each version: [Version history](CHANGELOG.md).
 
+### Linux
+
+**[Broomy for Linux 0.1.0](https://github.com/techinfo-apps/Broomy/releases/tag/linux-v0.1.0)** is a single command, `broomy`, for the terminal. It runs on any 64-bit Linux (x86_64 or ARM) with nothing else to install.
+
+Ubuntu, Debian and their relatives:
+
+    wget https://github.com/techinfo-apps/Broomy/releases/download/linux-v0.1.0/broomy_0.1.0_amd64.deb
+    sudo apt install ./broomy_0.1.0_amd64.deb
+    broomy
+
+(On an ARM computer, take `broomy_0.1.0_arm64.deb`.) Any other Linux: download `broomy-0.1.0-linux-amd64` (or `-arm64`), `chmod +x` it and run it.
+
+`broomy` only looks and lists: caches, old project build folders, installers in Downloads, old snap versions, downloaded packages and logs. `broomy show 3` shows what's in an item, `broomy clean` cleans the ticked items after asking you. Your files go to the Trash, where the file manager can put them back; system items use the system's own commands and ask for your password. It never connects to the internet.
+
+<p align="center"><img src="screenshots/linux-scan-en.png" width="720" alt="Broomy for Linux in a terminal: what it found, grouped, with sizes"></p>
+
 ## One page per feature
 
 Swipe left or right with two fingers, click the bar at the top, or press ⌘1…⌘7.
@@ -92,7 +108,7 @@ English, 简体中文, 繁體中文, 日本語, 한국어, Español, Français, 
 
 ## Feedback
 
-sublueai@gmail.com, or open an issue here.
+techinfor404@gmail.com, or open an issue here.
 
 Broomy is free to use. The source code isn't published.
 
@@ -100,7 +116,7 @@ Broomy is free to use. The source code isn't published.
 
 **Free forever. No ads, ever.** Small, lovely apps and games. Free, no ads, and private: your data stays on your own devices.
 
-Contact: sublueai@gmail.com · Website: https://techinfo-apps.github.io/
+Contact: techinfor404@gmail.com · Website: https://techinfo-apps.github.io/
 
 <details>
 <summary><img src="donate/coffee-cup.png" width="18" height="18" alt=""> Buy the Developer a Coffee</summary>

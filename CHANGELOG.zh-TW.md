@@ -2,6 +2,14 @@
 
 [English](CHANGELOG.md) · [简体中文](CHANGELOG.zh-CN.md) · **繁體中文** · [日本語](CHANGELOG.ja.md) · [한국어](CHANGELOG.ko.md) · [Español](CHANGELOG.es.md) · [Français](CHANGELOG.fr.md)
 
+## Linux 0.1.0 — 2026-10-30
+
+小掃帚來到 Linux，是終端機裡的一個指令。
+- **能找到**：套件管理員的快取（pip、uv、npm、pnpm、Yarn、Bun、Composer、Go、Cargo）、Gradle 和 VS Code 的快取、舊專案的建置檔案夾、縮圖、App 快取、「下載」和桌面上的安裝檔、apt 下載過的軟體套件、snap 的舊版本、系統日誌、沒人用的軟體套件。垃圾桶和 Docker 只量不動。
+- **先看再清**：`broomy show` 列出每個檔案和路徑；`broomy clean --dry-run` 只說會做什麼。
+- **清得小心**：你的檔案放進垃圾桶（檔案管理員裡能放回去）；系統的幾項交給 apt、snap、journalctl 自己做，經 sudo 問你密碼。正在執行的程式的快取、連結、別的硬碟、git 追蹤的東西一律不動。
+- 一個檔案，x86_64 和 ARM 都有，不用另外安裝任何東西。七種語言。沒有任何連網的程式碼。
+
 ## 1.2 — 2026-10-29
 
 - **搬移**（新的一頁）：很少用的 App、一個月沒打開的大檔案，你勾選並確認以後，搬到外接硬碟上的「Moved by Broomy」檔案夾。每一樣都先拷貝過去、跟原件比對，對上了原件才進垃圾桶；App 在原位置留一個連結。任何一步不對，什麼都不搬。**搬回**用同樣的辦法搬回來。

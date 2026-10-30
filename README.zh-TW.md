@@ -20,6 +20,22 @@
 
 每個版本加了什麼：[版本紀錄](CHANGELOG.zh-TW.md)。
 
+### Linux
+
+**[小掃帚 Linux 版 0.1.0](https://github.com/techinfo-apps/Broomy/releases/tag/linux-v0.1.0)** 是終端機裡的一個指令 `broomy`。64 位元的 Linux（x86_64 或 ARM）都能直接用，不用另外安裝任何東西。
+
+Ubuntu、Debian 和它們的兄弟們：
+
+    wget https://github.com/techinfo-apps/Broomy/releases/download/linux-v0.1.0/broomy_0.1.0_amd64.deb
+    sudo apt install ./broomy_0.1.0_amd64.deb
+    broomy
+
+（ARM 電腦換成 `broomy_0.1.0_arm64.deb`。） 別的 Linux：下載 `broomy-0.1.0-linux-amd64`（或 `-arm64`），`chmod +x` 之後直接執行。
+
+`broomy` 只看、只列：快取、舊專案的建置檔案夾、「下載」裡的安裝檔、snap 的舊版本、下載過的軟體套件和日誌。`broomy show 3` 看某一項裡有什麼，`broomy clean` 問過你之後清理打了 ✓ 的幾項。你的檔案放進垃圾桶，檔案管理員裡能放回去；系統的幾項用系統自己的指令，會問你密碼。從不連網。
+
+<p align="center"><img src="screenshots/linux-scan-zh-Hant.png" width="720" alt="終端機裡的小掃帚 Linux 版：找到的東西按類列出，帶大小"></p>
+
 ## 一頁一個功能
 
 兩指左右滑動、點頂部的頁籤，或按 ⌘1…⌘7 換頁。
@@ -92,7 +108,7 @@ English、简体中文、繁體中文、日本語、한국어、Español、Fran�
 
 ## 意見回饋
 
-sublueai@gmail.com，或在這裡開 issue。
+techinfor404@gmail.com，或在這裡開 issue。
 
 小掃帚免費使用，原始碼不公開。
 
@@ -100,7 +116,7 @@ sublueai@gmail.com，或在這裡開 issue。
 
 **永遠免費，永遠沒有廣告。** 只做小而美的軟體和小遊戲。免費，無廣告，守護你的隱私——資料只留在你自己的裝置上。
 
-聯絡：sublueai@gmail.com · 官網：https://techinfo-apps.github.io/
+聯絡：techinfor404@gmail.com · 官網：https://techinfo-apps.github.io/
 
 <details>
 <summary><img src="donate/coffee-cup.png" width="18" height="18" alt=""> 請作者喝咖啡</summary>

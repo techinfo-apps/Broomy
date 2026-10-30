@@ -20,6 +20,22 @@ Broomy는 이 페이지의 [Releases](https://github.com/techinfo-apps/Broomy/re
 
 버전마다 달라진 점: [버전 기록](CHANGELOG.ko.md).
 
+### Linux
+
+**[Broomy Linux 버전 0.1.0](https://github.com/techinfo-apps/Broomy/releases/tag/linux-v0.1.0)** 은 터미널에서 쓰는 명령 하나, `broomy`입니다. 64비트 Linux(x86_64 또는 ARM)라면 따로 설치할 것 없이 바로 쓸 수 있습니다.
+
+Ubuntu, Debian과 그 친척들:
+
+    wget https://github.com/techinfo-apps/Broomy/releases/download/linux-v0.1.0/broomy_0.1.0_amd64.deb
+    sudo apt install ./broomy_0.1.0_amd64.deb
+    broomy
+
+(ARM 컴퓨터라면 `broomy_0.1.0_arm64.deb`를 받으세요.) 다른 Linux: `broomy-0.1.0-linux-amd64`(또는 `-arm64`)를 내려받아 `chmod +x` 한 뒤 바로 실행하세요.
+
+`broomy`는 보고 나열하기만 합니다: 캐시, 오래된 프로젝트의 빌드 폴더, 다운로드 폴더의 설치 파일, snap의 오래된 버전, 내려받은 패키지와 로그. `broomy show 3`은 항목 안에 무엇이 있는지 보여 주고, `broomy clean`은 ✓ 표시한 항목을 물어본 뒤 정리합니다. 내 파일은 휴지통으로 가며, 파일 관리자에서 되돌릴 수 있습니다. 시스템 항목은 시스템 자체 명령을 쓰고, 비밀번호를 묻습니다. 인터넷에 연결하지 않습니다.
+
+<p align="center"><img src="screenshots/linux-scan-ko.png" width="720" alt="터미널에서 실행한 Broomy Linux 버전: 찾은 것을 종류별로, 크기와 함께 보여 줍니다"></p>
+
 ## 기능마다 한 페이지
 
 두 손가락으로 왼쪽이나 오른쪽으로 쓸거나, 위쪽 막대를 클릭하거나, ⌘1…⌘7을 누르세요.
@@ -92,7 +108,7 @@ English, 简体中文, 繁體中文, 日本語, 한국어, Español, Français, 
 
 ## 의견
 
-sublueai@gmail.com, 또는 여기에서 issue를 열어 주세요.
+techinfor404@gmail.com, 또는 여기에서 issue를 열어 주세요.
 
 Broomy는 무료로 쓸 수 있습니다. 소스 코드는 공개하지 않습니다.
 
@@ -100,7 +116,7 @@ Broomy는 무료로 쓸 수 있습니다. 소스 코드는 공개하지 않습�
 
 **영원히 무료, 영원히 광고 없이.** 작고 아름다운 앱과 작은 게임만 만듭니다. 무료, 광고 없음, 당신의 프라이버시를 지킵니다 — 데이터는 당신의 기기 안에만 머뭅니다.
 
-연락처: sublueai@gmail.com · 웹사이트: https://techinfo-apps.github.io/
+연락처: techinfor404@gmail.com · 웹사이트: https://techinfo-apps.github.io/
 
 <details>
 <summary><img src="donate/coffee-cup.png" width="18" height="18" alt=""> 개발자에게 커피 한 잔</summary>

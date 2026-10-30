@@ -20,6 +20,22 @@ Broomy はこのページの [Releases](https://github.com/techinfo-apps/Broomy/
 
 各バージョンの変更点：[バージョン履歴](CHANGELOG.ja.md)。
 
+### Linux
+
+**[Broomy Linux 版 0.1.0](https://github.com/techinfo-apps/Broomy/releases/tag/linux-v0.1.0)** は、ターミナルで使う 1 つのコマンド `broomy` です。64 ビットの Linux（x86_64 または ARM）ならそのまま動き、ほかに何もインストールする必要はありません。
+
+Ubuntu、Debian とその仲間たち：
+
+    wget https://github.com/techinfo-apps/Broomy/releases/download/linux-v0.1.0/broomy_0.1.0_amd64.deb
+    sudo apt install ./broomy_0.1.0_amd64.deb
+    broomy
+
+（ARM のコンピュータでは `broomy_0.1.0_arm64.deb` を使ってください。） ほかの Linux：`broomy-0.1.0-linux-amd64`（または `-arm64`）をダウンロードし、`chmod +x` してそのまま実行します。
+
+`broomy` は見て、一覧にするだけです：キャッシュ、古いプロジェクトのビルドフォルダ、「ダウンロード」のインストーラ、snap の古いバージョン、ダウンロード済みのパッケージとログ。`broomy show 3` で項目の中身を表示し、`broomy clean` は ✓ を付けた項目を、確認してから片づけます。あなたのファイルはゴミ箱へ。ファイルマネージャーで元に戻せます。システムの項目はシステム自身のコマンドを使い、パスワードを尋ねます。インターネットには一切接続しません。
+
+<p align="center"><img src="screenshots/linux-scan-ja.png" width="720" alt="ターミナルで動く Broomy の Linux 版：見つけたものを種類ごとに、サイズ付きで一覧表示"></p>
+
 ## 1 ページに 1 機能
 
 2 本指で左右にスワイプ、上のバーをクリック、または ⌘1…⌘7 でページを切り替えます。
@@ -92,7 +108,7 @@ English、简体中文、繁體中文、日本語、한국어、Español、Fran�
 
 ## フィードバック
 
-sublueai@gmail.com、またはここで issue を作成してください。
+techinfor404@gmail.com、またはここで issue を作成してください。
 
 Broomy は無料で使えます。ソースコードは公開していません。
 
@@ -100,7 +116,7 @@ Broomy は無料で使えます。ソースコードは公開していません�
 
 **ずっと無料、ずっと広告なし。** 小さくて美しいアプリと、小さなゲームだけを。無料、広告なし、プライバシーを大切に——データはあなたのデバイスの中だけに。
 
-連絡先：sublueai@gmail.com · 公式サイト：https://techinfo-apps.github.io/
+連絡先：techinfor404@gmail.com · 公式サイト：https://techinfo-apps.github.io/
 
 <details>
 <summary><img src="donate/coffee-cup.png" width="18" height="18" alt=""> 作者にコーヒーをおごる</summary>

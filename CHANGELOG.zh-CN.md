@@ -2,6 +2,14 @@
 
 [English](CHANGELOG.md) · **简体中文** · [繁體中文](CHANGELOG.zh-TW.md) · [日本語](CHANGELOG.ja.md) · [한국어](CHANGELOG.ko.md) · [Español](CHANGELOG.es.md) · [Français](CHANGELOG.fr.md)
 
+## Linux 0.1.0 — 2026-10-30
+
+小扫帚来到 Linux，是终端里的一个命令。
+- **能找到**：包管理器缓存（pip、uv、npm、pnpm、Yarn、Bun、Composer、Go、Cargo）、Gradle 和 VS Code 的缓存、旧项目的构建文件夹、缩略图、App 缓存、“下载”和桌面上的安装包、apt 下载过的软件包、snap 的旧版本、系统日志、没人用的软件包。废纸篓和 Docker 只量不动。
+- **先看再清**：`broomy show` 列出每个文件和路径；`broomy clean --dry-run` 只说会做什么。
+- **清得小心**：你的文件放进废纸篓（文件管理器里能还原）；系统的几项交给 apt、snap、journalctl 自己做，经 sudo 问你密码。正在运行的程序的缓存、链接、别的硬盘、git 跟踪的东西一律不动。
+- 一个文件，x86_64 和 ARM 都有，不用另外装任何东西。七种语言。没有任何联网的代码。
+
 ## 1.2 — 2026-10-29
 
 - **迁移**（新的一页）：很少用的 App、一个月没打开的大文件，你勾选并确认以后，挪到外接硬盘上的“Moved by Broomy”文件夹。每一样都先拷过去、跟原件比对，对上了原件才进废纸篓；App 在原位置留一个链接。任何一步不对，什么都不挪。**迁回**用同样的办法搬回来。

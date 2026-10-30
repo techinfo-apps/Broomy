@@ -2,6 +2,14 @@
 
 [English](CHANGELOG.md) · [简体中文](CHANGELOG.zh-CN.md) · [繁體中文](CHANGELOG.zh-TW.md) · [日本語](CHANGELOG.ja.md) · [한국어](CHANGELOG.ko.md) · [Español](CHANGELOG.es.md) · **Français**
 
+## Linux 0.1.0 — 2026-10-30
+
+Broomy arrive sous Linux, sous la forme d’une seule commande pour le terminal.
+- **Trouve** : caches des gestionnaires de paquets (pip, uv, npm, pnpm, Yarn, Bun, Composer, Go et Cargo), caches de Gradle et de VS Code, dossiers de compilation d’anciens projets, miniatures, caches d’apps, programmes d’installation dans Téléchargements et sur le Bureau, paquets apt téléchargés, anciennes versions de snap, le journal système et les paquets dont rien n’a besoin. La corbeille et Docker sont mesurés, pas touchés.
+- **Montre avant de nettoyer** : `broomy show` liste chaque fichier avec son chemin ; `broomy clean --dry-run` dit ce qui se passerait.
+- **Nettoie avec douceur** : vos fichiers vont dans la corbeille (le gestionnaire de fichiers peut les remettre en place) ; les éléments système passent par apt, snap et journalctl eux-mêmes, avec votre mot de passe demandé via sudo. Les caches des programmes en cours d’exécution, les liens, les autres disques et tout ce que git suit sont laissés tranquilles.
+- Un seul fichier pour x86_64 et ARM, rien d’autre à installer. Sept langues. Aucun code réseau.
+
 ## 1.2 — 2026-10-29
 
 - **Déplacer**, une nouvelle page : les apps que vous utilisez peu et les gros fichiers non ouverts depuis un mois vont dans un dossier « Moved by Broomy » sur un disque externe, seulement après que vous les avez cochés et que vous avez confirmé. Chacun est copié et comparé à l’original avant que l’original aille dans la corbeille ; une app laisse un lien à son ancienne place. Si une étape échoue, rien n’est déplacé. **Remettre** les ramène de la même façon.

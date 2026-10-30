@@ -2,6 +2,14 @@
 
 **English** · [简体中文](CHANGELOG.zh-CN.md) · [繁體中文](CHANGELOG.zh-TW.md) · [日本語](CHANGELOG.ja.md) · [한국어](CHANGELOG.ko.md) · [Español](CHANGELOG.es.md) · [Français](CHANGELOG.fr.md)
 
+## Linux 0.1.0 — 2026-10-30
+
+Broomy comes to Linux, as one command for the terminal.
+- **Finds** package manager caches (pip, uv, npm, pnpm, Yarn, Bun, Composer, Go, Cargo), Gradle and VS Code caches, old project build folders, thumbnails, app caches, installers in Downloads and on the Desktop, downloaded apt packages, old snap versions, the system journal and packages nothing needs. The Trash and Docker are measured, not touched.
+- **Shows before it cleans**: `broomy show` lists every file with its path; `broomy clean --dry-run` says what would happen.
+- **Cleans gently**: your files go to the Trash (the file manager can put them back); system items use apt, snap and journalctl themselves, asking for your password through sudo. Caches of running programs, links, other disks and anything git tracks are left alone.
+- A single file for x86_64 and ARM, nothing else to install. Seven languages. No network code at all.
+
 ## 1.2 — 2026-10-29
 
 - **Move**, a new page: apps you rarely use and big files you haven't opened in a month go to a “Moved by Broomy” folder on an external drive, only after you tick them and confirm. Each one is copied and checked against the original before the original goes to the Trash; an app leaves a link in its old place. If any step fails, nothing is moved. **Move back** brings them home the same way.

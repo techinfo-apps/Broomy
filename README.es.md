@@ -20,6 +20,22 @@ Descarga Broomy solo desde las [Releases](https://github.com/techinfo-apps/Broom
 
 Novedades de cada versión: [historial de versiones](CHANGELOG.es.md).
 
+### Linux
+
+**[Broomy para Linux 0.1.0](https://github.com/techinfo-apps/Broomy/releases/tag/linux-v0.1.0)** es un solo comando, `broomy`, para la terminal. Funciona en cualquier Linux de 64 bits (x86_64 o ARM) sin instalar nada más.
+
+Ubuntu, Debian y derivadas:
+
+    wget https://github.com/techinfo-apps/Broomy/releases/download/linux-v0.1.0/broomy_0.1.0_amd64.deb
+    sudo apt install ./broomy_0.1.0_amd64.deb
+    broomy
+
+(En un ordenador ARM, usa `broomy_0.1.0_arm64.deb`.) Cualquier otro Linux: descarga `broomy-0.1.0-linux-amd64` (o `-arm64`), dale `chmod +x` y ejecútalo.
+
+`broomy` solo mira y enumera: cachés, carpetas de compilación de proyectos antiguos, instaladores en Descargas, versiones antiguas de snap, paquetes descargados y registros. `broomy show 3` muestra qué hay dentro de un elemento y `broomy clean` limpia los elementos marcados con ✓ después de preguntarte. Tus archivos van a la papelera, desde donde el gestor de archivos puede recuperarlos; los elementos del sistema usan los comandos del propio sistema y te piden la contraseña. Nunca se conecta a internet.
+
+<p align="center"><img src="screenshots/linux-scan-es.png" width="720" alt="Broomy para Linux en una terminal: lo que ha encontrado, agrupado y con tamaños"></p>
+
 ## Una página por función
 
 Desliza dos dedos a la izquierda o a la derecha, haz clic en la barra de arriba o pulsa ⌘1…⌘7.
@@ -92,7 +108,7 @@ English, 简体中文, 繁體中文, 日本語, 한국어, Español, Français, 
 
 ## Comentarios
 
-sublueai@gmail.com, o abre un issue aquí.
+techinfor404@gmail.com, o abre un issue aquí.
 
 Broomy es gratis. El código fuente no se publica.
 
@@ -100,7 +116,7 @@ Broomy es gratis. El código fuente no se publica.
 
 **Siempre gratis. Nunca anuncios.** Solo apps y juegos pequeños y bonitos. Gratis, sin anuncios y privados: tus datos se quedan en tus propios dispositivos.
 
-Contacto: sublueai@gmail.com · Web: https://techinfo-apps.github.io/
+Contacto: techinfor404@gmail.com · Web: https://techinfo-apps.github.io/
 
 <details>
 <summary><img src="donate/coffee-cup.png" width="18" height="18" alt=""> Invita al desarrollador a un café</summary>

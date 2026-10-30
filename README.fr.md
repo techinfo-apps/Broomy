@@ -20,6 +20,22 @@ Ne téléchargez Broomy que depuis les [Releases](https://github.com/techinfo-ap
 
 Les nouveautés de chaque version : [historique des versions](CHANGELOG.fr.md).
 
+### Linux
+
+**[Broomy pour Linux 0.1.0](https://github.com/techinfo-apps/Broomy/releases/tag/linux-v0.1.0)** est une seule commande, `broomy`, pour le terminal. Il fonctionne sur tout Linux 64 bits (x86_64 ou ARM), sans rien d’autre à installer.
+
+Ubuntu, Debian et leurs cousines :
+
+    wget https://github.com/techinfo-apps/Broomy/releases/download/linux-v0.1.0/broomy_0.1.0_amd64.deb
+    sudo apt install ./broomy_0.1.0_amd64.deb
+    broomy
+
+(Sur un ordinateur ARM, prenez `broomy_0.1.0_arm64.deb`.) Tout autre Linux : téléchargez `broomy-0.1.0-linux-amd64` (ou `-arm64`), faites `chmod +x` puis lancez-le.
+
+`broomy` ne fait que regarder et lister : caches, dossiers de compilation d’anciens projets, programmes d’installation dans Téléchargements, anciennes versions de snap, paquets téléchargés et journaux. `broomy show 3` montre ce que contient un élément, `broomy clean` nettoie les éléments cochés ✓ après vous avoir demandé. Vos fichiers vont dans la corbeille, d’où le gestionnaire de fichiers peut les remettre en place ; les éléments système utilisent les commandes du système lui-même et demandent votre mot de passe. Il ne se connecte jamais à internet.
+
+<p align="center"><img src="screenshots/linux-scan-fr.png" width="720" alt="Broomy pour Linux dans un terminal : ce qu’il a trouvé, regroupé, avec les tailles"></p>
+
 ## Une page par fonction
 
 Balayez à deux doigts vers la gauche ou la droite, cliquez sur la barre en haut, ou appuyez sur ⌘1…⌘7.
@@ -92,7 +108,7 @@ English, 简体中文, 繁體中文, 日本語, 한국어, Español, Français, 
 
 ## Retours
 
-sublueai@gmail.com, ou ouvrez une issue ici.
+techinfor404@gmail.com, ou ouvrez une issue ici.
 
 Broomy est gratuit. Le code source n’est pas publié.
 
@@ -100,7 +116,7 @@ Broomy est gratuit. Le code source n’est pas publié.
 
 **Toujours gratuit. Jamais de publicité.** Uniquement de petites applis et de petits jeux, simples et soignés. Gratuits, sans publicité, respectueux de votre vie privée : vos données restent sur vos propres appareils.
 
-Contact : sublueai@gmail.com · Site : https://techinfo-apps.github.io/
+Contact : techinfor404@gmail.com · Site : https://techinfo-apps.github.io/
 
 <details>
 <summary><img src="donate/coffee-cup.png" width="18" height="18" alt=""> Offrir un café au développeur</summary>

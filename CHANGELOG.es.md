@@ -2,6 +2,14 @@
 
 [English](CHANGELOG.md) · [简体中文](CHANGELOG.zh-CN.md) · [繁體中文](CHANGELOG.zh-TW.md) · [日本語](CHANGELOG.ja.md) · [한국어](CHANGELOG.ko.md) · **Español** · [Français](CHANGELOG.fr.md)
 
+## Linux 0.1.0 — 2026-10-30
+
+Broomy llega a Linux, como un solo comando para la terminal.
+- **Encuentra**: cachés de gestores de paquetes (pip, uv, npm, pnpm, Yarn, Bun, Composer, Go y Cargo), cachés de Gradle y VS Code, carpetas de compilación de proyectos antiguos, miniaturas, cachés de apps, instaladores en Descargas y en el Escritorio, paquetes de apt descargados, versiones antiguas de snap, el diario del sistema y paquetes que nada necesita. La papelera y Docker solo se miden, no se tocan.
+- **Muestra antes de limpiar**: `broomy show` lista cada archivo con su ruta; `broomy clean --dry-run` dice qué pasaría.
+- **Limpia con cuidado**: tus archivos van a la papelera (el gestor de archivos puede recuperarlos); los elementos del sistema usan apt, snap y journalctl directamente y te piden la contraseña mediante sudo. Las cachés de programas en ejecución, los enlaces, otros discos y todo lo que git rastrea se dejan en paz.
+- Un solo archivo para x86_64 y ARM, sin instalar nada más. Siete idiomas. Nada de código de red.
+
 ## 1.2 — 2026-10-29
 
 - **Mover**, una página nueva: las apps que casi no usas y los archivos grandes que no abres desde hace un mes pasan a una carpeta «Moved by Broomy» de un disco externo, solo después de que los marques y confirmes. Cada uno se copia y se comprueba con el original antes de que el original vaya a la papelera; una app deja un enlace en su sitio. Si algún paso falla, no se mueve nada. **Devolver** los trae de vuelta del mismo modo.
